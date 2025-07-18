@@ -1,0 +1,155 @@
+body {
+  background-image: url('images/bg.jpg');
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.profpic {
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.landing-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.box-landing {
+  width: 650px;
+  text-align: center;
+  height: 650px;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 5%;
+  margin-bottom: 10px;;
+  margin-top: 20px;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;;
+  font-size: 36px;
+}
+
+#subtitle {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.intro {
+  margin: 10px;
+}
+
+.img-tools {
+  width: 400px;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+.break {
+  width: 100px;
+  border: none;
+  border-top: 3px solid orange;
+  margin: 2px auto;
+}
+
+.tools-used {
+  margin-top: 35px;
+  margin-bottom: 0;
+  font-size: 20 px;  
+}
+
+.intro {
+  font-size: 16px;
+  text-align: left;
+  padding: 0 35px 0 35px
+}
+
+button {
+  margin-top: 12px; 
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FBD188;
+  height: 35px;
+  width: 120px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.box-contacts {
+  width: 650px;
+  text-align: center;
+  height: 200px;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 5%;;
+}
+
+.box-contacts > p {
+  font-size: 16px;;
+}
+
+.projects {
+  width: 650px;
+  text-align: center;
+  height: 980px;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 5%;
+  margin-bottom: 10px;;
+  margin-top: 20px;
+}
+
+.box {
+  display: flex;
+  gap: 10px;
+}
+
+.preview {
+  height: 150px;
+  max-width: 100%;
+  border: 1.5px solid black;
+  border-radius: 8px;
+  margin: 15px 15px 0 15px;
+}
+
+.subtext {
+  padding: 0 20px 0 20px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0 0 0 20px;
+}
+
+.links{
+  display: inline-block;
+  background-color: #FBD188;
+  padding: 10px 20px;
+  border-radius: 999px;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: #000;
+}
+
+hr {
+  border: 1 px solid black;
+}
