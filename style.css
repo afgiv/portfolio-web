@@ -3,6 +3,12 @@ body {
   background-attachment: fixed;
   margin: 0;
   padding: 0;
+  font-family: Inter, sans-serif  ;
+  line-height: 1.5 ;
+}
+
+h1, h2 {
+  font-family: Montserrat, sans-serif;
 }
 
 .profpic {
@@ -20,10 +26,11 @@ body {
   align-items: center;
   gap: 20px;
 }
+
 .box-landing {
   width: 650px;
   text-align: center;
-  height: 650px;
+  height: 700px;
   background-color: whitesmoke;
   padding: 10px;
   border-radius: 5%;
@@ -82,6 +89,7 @@ button {
   background-color: #FBD188;
   height: 35px;
   width: 120px;
+  font-weight: 500;
 }
 
 h2 {
@@ -93,21 +101,22 @@ h2 {
   text-align: center;
   height: 200px;
   background-color: whitesmoke;
-  padding: 10px;
-  border-radius: 5%;;
+  border-radius: 40px;
+  padding: 5px;
+  margin-top: 10px;
 }
 
-.box-contacts > p {
-  font-size: 16px;;
+.box-contacts  p {
+  font-size: 16px;
 }
 
 .projects {
   width: 650px;
   text-align: center;
-  height: 980px;
+  height: 1175px;
   background-color: whitesmoke;
   padding: 10px;
-  border-radius: 5%;
+  border-radius: 32px;
   margin-bottom: 10px;;
   margin-top: 20px;
 }
@@ -136,6 +145,9 @@ h2 {
   align-items: center;
   list-style: none;
   padding: 0 0 0 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 .links{
@@ -152,4 +164,12 @@ a:link, a:visited, a:hover, a:active {
 
 hr {
   border: 1 px solid black;
+}
+
+.box-landing, .projects, .box-contacts{
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.7)
+}
+
+footer {
+  color:black;  
 }
