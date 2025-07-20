@@ -76,7 +76,8 @@ h1 {
 .tools-used {
   margin-top: 30px;
   margin-bottom: 0;
-  font-size: 20 px;  
+  font-size: 20 px;
+  font-style: italic;
 }
 
 .intro {
@@ -100,6 +101,7 @@ h2 {
   font-size: 20px;
   color: #1A1A1A;
   margin-bottom: 8px;
+  text-transform: uppercase;
 }
 
 .box-contacts {
@@ -131,7 +133,7 @@ h2 {
 .projects {
   width: 650px;
   text-align: center;
-  height: 1175px;
+  height: 1195px;
   background-color: whitesmoke;
   padding: 10px;
   border-radius: 32px;
@@ -149,7 +151,7 @@ h2 {
   max-width: 100%;
   border: 1.5px solid black;
   border-radius: 8px;
-  margin: 15px 15px 0 15px;
+  margin: 30px 15px 0 15px;
 }
 
 .subtext {
@@ -200,4 +202,8 @@ small {
 .box-contacts h2 {
   margin-bottom: 25px;
   margin-top: 0;
+}
+
+.first {
+  margin-top: 15px;
 }
